@@ -1,0 +1,110 @@
+/* .adminView{
+  background-color: rgb(222, 227, 231);
+} */
+
+main {
+  margin-left: 220px;
+}
+
+.adminHomeHeader {
+  font-size: 35px;
+  color: #0d0b6d;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.adminHomeMain {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+}
+
+.adminHomeOptionInfo {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(149, 51, 51);
+}
+
+.adminHomeOptions {
+  margin: 20px;
+  padding-top: 10px;
+  height: 170px;
+}
+
+.adminHomeOptionButton {
+  position: absolute;
+  top: 85px;
+}
+
+/*Admin tutor options*/
+.adminTutorOptionMain {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminTutorOptions {
+  margin: 2% 15% 1% 20%;
+  padding-top: 10px;
+  height: 170px;
+  width: 250px;
+}
+
+.adminTutorOptionButton {
+  position: absolute;
+  top: 75px;
+}
+
+.adminTutorOptionButtonUnapp {
+  position: absolute;
+  top: 55px;
+}
+
+@media all and (max-width: 800px) {
+  .adminHomeOptionButton {
+    position: absolute;
+    top: 55px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .adminHomeMain {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .adminHomeMain {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+  .adminHomeMain {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+  }
+  /*Admin tutor options*/
+  .adminTutorOptionMain {
+    grid-template-columns: 100%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  main {
+    margin-left: 2px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .adminHomeMain {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+}

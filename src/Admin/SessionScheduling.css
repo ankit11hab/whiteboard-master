@@ -1,0 +1,38 @@
+.scheduleTutor {
+	display: grid;
+	grid-template-columns: 0.1fr repeat(3, 1fr);
+	border-bottom: 1px dotted black;
+	padding: 1em;
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+}
+.scheduleTutor > h3{
+	font-family:  sans-serif;
+	color: tomato;
+}
+.scheduleTutor > input {
+	border-radius: 3px;
+	height: fit-content;
+	width: 15%;
+	padding : 5px;
+	font-family: sans-serif;
+	margin-right: 10px;
+	border: 1px solid gray;
+	color: black;
+	background-color: #fafafa;
+
+}
+.scheduleTutor > button{
+	width: 17%;
+	padding: 10px;
+	outline-width: none;
+	border-radius: 5px;
+	background-color: #3e62d6;
+	color: white;
+	border: none;
+	font-weight: "bold";
+}
+.scheduleTutor * {
+	width: 60%;
+}

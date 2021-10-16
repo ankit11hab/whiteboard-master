@@ -1,0 +1,55 @@
+.userDetailsPage {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.userInfoHeader {
+  margin-left: 5%;
+  display: grid;
+  grid-template-columns: 22% 78%;
+}
+
+.userInfoAvatar {
+  height: 100px !important;
+  width: 100px !important;
+}
+
+.userInfo {
+  /* color: #0d0b6d; */
+  padding-top: 2%;
+  font-size: 21px;
+  font-weight: bolder;
+}
+.userInfo > h3{
+  font-family:  sans-serif;
+  color: tomato;
+}
+.userInfo > h4{
+  font-family: sans-serif;
+}
+.loadingIcon  {
+  display: flex;
+  margin-top:  60px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media all and (max-width: 1125px) {
+  .userInfoHeader {
+    grid-template-columns: 25% 75%;
+    width: 100vw;
+  }
+
+  .userInfoAvatar {
+    height: 80px !important;
+    width: 80px !important;
+  }
+
+  .userInfo {
+    /* color: #0d0b6d; */
+    padding-top: 0.5%;
+    font-size: 12px;
+    font-weight: bolder;
+  }
+}

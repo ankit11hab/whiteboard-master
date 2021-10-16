@@ -1,0 +1,53 @@
+.newAdminPage {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.newAdminPage > h2{
+  font-family: sans-serif;
+  color: coral;
+}
+
+.searchButton {
+  margin: 12px;
+  color: #0d0b6d !important;
+}
+
+.searchResults {
+  margin-top: 10px;
+}
+
+.userAllDetails {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.userInfo {
+  padding: 1px 10px;
+  text-align: left;
+}
+.userInfo > h5{
+  font-family: sans-serif;
+}
+.userAllDetailsLeft > h4{
+  font-family: sans-serif;
+}
+
+@media all and (max-width: 1000px) {
+  .userInfo {
+    text-align: center;
+  }
+  .userInfo > h3 {
+    font-size: 30px;
+  }
+  .userInfo > h5 {
+    font-size: 20px;
+  }
+  .userAllDetails {
+    grid-template-columns: 100%;
+  }
+}

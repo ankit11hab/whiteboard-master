@@ -1,0 +1,82 @@
+.adminTutorInfoPage {
+  text-align: center;
+}
+
+main {
+  margin-left: 220px;
+  margin-top: 5%;
+}
+
+.adminHomeHeader {
+  font-size: 35px;
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.tutorDetails {
+  margin: 1%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.tutorPersonalInfo {
+  color: black;
+  text-align: left;
+  cursor: pointer;
+}
+.tutorPersonalInfo > h3{
+  font-family: sans-serif;
+  color: rgb(29, 131, 29);
+}
+
+.tutorActionButton {
+  margin: 2% !important;
+  color: white !important;
+}
+
+.tutorActionAccept :hover {
+  opacity: 0.8;
+}
+
+.tutorActionReject :hover {
+  opacity: 0.8;
+}
+
+.tutorActionAccept {
+  background-color: rgb(30, 163, 30) !important;
+}
+
+.tutorActionReject {
+  background-color: rgb(207, 47, 47)  !important;
+}
+
+.tutorActionDelete {
+  background-color: rgb(207, 47, 47) !important;
+}
+
+@media all and (max-width: 600px) {
+  main {
+    margin-left: 2px;
+    margin-top: 17% !important;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .tutorDetails {
+    grid-template-columns: 100% !important;
+  }
+  .tutorPersonalInfo {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .tutorDetails {
+    grid-template-columns: 60% 40%;
+  }
+  main {
+    margin-top: 10%;
+  }
+}

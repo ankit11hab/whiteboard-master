@@ -1,0 +1,111 @@
+/* #whiteboard {
+	overflow: hidden;
+} */
+
+#tools {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 80vw;
+	margin: 1%;
+}
+
+#lineWidthSlider {
+	width: 10vw;
+}
+
+.SApp {
+	overflow: hidden;
+	/* background-image: linear-gradient(red, blue); */
+}
+
+#canvasMain {
+	border: 1px solid black;
+}
+
+.btn-canvasTool {
+	background-color: #007bff;
+	border: none;
+	outline: none;
+	padding: 1% 5%;
+	border-radius: 999px;
+	font-weight: 700;
+	color: #fff;
+	cursor: pointer;
+}
+.btn-canvasTool:hover {
+	opacity: 0.7;
+}
+
+.toolBtn {
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+.toolBtn img {
+	width: 30px;
+	height: 30px;
+}
+
+.toolBtn:hover {
+	background-color: #fafafa;
+	box-shadow: 0px 0px 10px -2px #333;
+}
+
+.tabs {
+	display: flex;
+}
+
+.tab {
+	margin: 0px 2px 0px 0px;
+	background-color: #fafafa;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 10px;
+}
+.tab button {
+	background-color: #fafafa;
+	border: none;
+	outline: none;
+	padding: 0;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.tab h3 {
+	margin: 0;
+}
+
+.canvasContainer {
+	position: relative;
+}
+
+.currentEmail {
+	position: absolute;
+	padding: 5px 10px;
+	background-image: linear-gradient(rgba(0, 255, 0, 0.3), rgba(0, 255, 0, 0.3));
+	border-bottom-right-radius: 5px;
+	margin: 0;
+	font-weight: 700;
+}
+
+.requestingTutor {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	display: flex;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	background-color: #000;
+	opacity: 0.5;
+	z-index: 10000000;
+}
+
+.activeTab,
+.activeTab * {
+	background-color: #007bff;
+	color: #fff;
+}

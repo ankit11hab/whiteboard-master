@@ -1,0 +1,37 @@
+.postUploadMain {
+  justify-content: "center";
+  text-align: "center";
+}
+
+.postUploadHeader {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  margin-bottom: 2%;
+}
+
+.photoPreview {
+  margin: 2%;
+}
+
+.imagePreview {
+  height: 65vh;
+  object-fit: contain;
+}
+
+.photoUploadOption {
+  position: absolute;
+  top: 180px;
+}
+
+.profileImageUpload {
+  position: absolute;
+  top: 90px;
+  left: 300px;
+  cursor: pointer;
+  height: 100%;
+}
+
+.photoPostOptions {
+  margin: "1% 3%";
+}

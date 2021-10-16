@@ -1,0 +1,43 @@
+.mapContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col {
+	height: 100vh;
+	margin: 0 2%;
+	overflow-y: scroll;
+}
+
+.draggableDiv {
+	background-color: #eee;
+	padding: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 3%;
+}
+.draggableDiv > p{
+	font-family: sans-serif;
+	color: green;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.mapTutorDiv {
+	color: #fff;
+	background-color: rgb(45, 83, 167);
+	margin-bottom: 0 !important;
+	font-family: sans-serif;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.mapStudentDiv {
+	margin-bottom: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: green;
+}

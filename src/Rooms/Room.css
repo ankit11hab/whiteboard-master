@@ -1,0 +1,73 @@
+.homeMain {
+	width: 100vw;
+	height: 100vh;
+}
+
+.homeContainer {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 20vw;
+}
+
+.roomDiv {
+	min-width: 20vw;
+	min-height: 30vh;
+	max-height: 70vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border: 2px solid #000;
+	padding: 2%;
+	background-color: #fafafa;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 10vh;
+}
+
+.roomDiv h1 {
+	margin-top: 0 !important;
+}
+
+.homeBtn {
+	align-self: center;
+	background-color: #007bff;
+	padding: 1em;
+	font-weight: 700;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px #333;
+	min-width: 10vw;
+	margin: 1em;
+}
+
+.scheduleDiv {
+	width: 40vw;
+	min-height: 20vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	border: 2px solid #000;
+	padding: 2%;
+	background-color: #fafafa;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 10vh;
+}
+
+.scheduleDiv div {
+	border-bottom: 1px dotted black;
+	width: 100%;
+	display: flex;
+	min-height: 5vh;
+	justify-content: space-around;
+	align-items: center;
+}

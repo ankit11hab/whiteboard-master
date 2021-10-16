@@ -1,0 +1,53 @@
+.adminMain {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	/* justify-content: center !important;
+	align-items: center !important; */
+	background-color: #fff;
+}
+
+.leftNav {
+	width: 30%;
+	border-right: 1px solid black;
+}
+
+.adminDisplayContainer {
+	width: 60%;
+}
+
+.rooms {
+	overflow-y: scroll;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.room {
+	width: "100%";
+	border: 1px solid black;
+	display: flex;
+	border-radius: 20;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 10px;
+	padding: 10px;
+	min-height: 20vh;
+}
+
+.adminNavBtn {
+	display: block;
+	margin: 2% 10%;
+	width: 80%;
+	border: none;
+	outline: none;
+	padding: 2%;
+	cursor: pointer;
+	background-color: transparent;
+	font-weight: 700;
+	font-size: medium;
+}
+
+.adminNavBtn:hover {
+	background-color: #eee;
+}
